@@ -1,12 +1,14 @@
-.cover__subtitle {
+.place__website_link {
   font-family: 'Inter', arial, sans-serif;
   font-style:  normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.22;
   color: #fff;
-  text-align: center;
-  max-width: 30.4%;
-  min-height: 66px;
-  margin: 32px auto 0;
+  opacity: 1;
+}
+
+.place__website_link:hover {
+  opacity: .8;
+  transition: opacity .3s linear;
 }

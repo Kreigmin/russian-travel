@@ -1,10 +1,10 @@
 .header {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   margin: 0 auto;
   position: relative;
   padding-top: 28px;
-  max-width: 1184px;
+  max-width: 92.5%;
   min-height: 52px;
 }
