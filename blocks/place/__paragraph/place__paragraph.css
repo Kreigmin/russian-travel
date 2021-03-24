@@ -1,10 +1,11 @@
 .place__paragraph {
+  display: block;
   max-width: 484px;
   min-height: 116px;
   margin: 48px 0 0 40px;
   font-family: 'Inter', arial, sans-serif;
   font-style:  normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 18px;
   line-height: 1.63;
   color: #fff;
@@ -12,4 +13,20 @@
 
 .place__paragraph:nth-of-type(2n){
   margin-top: 26px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .place__paragraph {
+    max-width: 456px;
+    margin-left: 32px;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .place__paragraph {
+    max-width: 352px;
+    margin-left: 28px;
+    font-size: 16px;
+  }
 }
