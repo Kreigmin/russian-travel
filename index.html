@@ -9,10 +9,10 @@
 <body>
   <div class="page">
     <header class="header">
-      <a class="header__logo" href="#"></a>
+      <a class="header__logo" href="#" target='_self'></a>
       <nav>
-        <a class="header__lang-link" href="#">Ru</a>
-        <a class="header__lang-link" href="#">En</a>
+        <a class="header__lang-link" href="#" target='_self'>Ru</a> <!--Задал target всем ссылкам потому, что без него при попытке отправить работу на ревью выдавало ошибку: В файле index.html на строке # атрибуту target не хватает значения.-->
+        <a class="header__lang-link" href="#" target='_self'>En</a>
       </nav>
     </header>
     <main class="content">
@@ -118,11 +118,11 @@
     </main>
     <footer class="footer">
       <nav class="footer__links">
-        <a class="footer__link" href="#">Карты</a>
-        <a class="footer__link" href="#">Погода</a>
-        <a class="footer__link" href="#">Расписание</a>
-        <a class="footer__link" href="#">Календарь</a>
-        <a class="footer__link" href="#">Путешествия</a>
+        <a class="footer__link" href="#" target='_blank'>Карты</a>
+        <a class="footer__link" href="#" target='_blank'>Погода</a>
+        <a class="footer__link" href="#" target='_blank'>Расписание</a>
+        <a class="footer__link" href="#" target='_blank'>Календарь</a>
+        <a class="footer__link" href="#" target='_blank'>Путешествия</a>
       </nav>
       <p class="footer__copyright">&copy; 2020. Соболев Дмитрий</p>
     </footer>
