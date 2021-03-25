@@ -10,4 +10,4 @@
 
 ### Ссылка проекта на GitHub Pages
 
-
+https://kreigmin.github.io/russian-travel/index.html
