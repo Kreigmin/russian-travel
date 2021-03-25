@@ -1,6 +1,6 @@
 .place__paragraph {
   display: block;
-  max-width: 484px;
+  max-width: 484px; /*Я не знаю почему но текст становится на свое место только если задать в px, при установке в % текст уезжает под картинку, может я не правильно сделал структуру для place*/
   min-height: 116px;
   margin: 48px 0 0 40px;
   font-family: 'Inter', arial, sans-serif;
