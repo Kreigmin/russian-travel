@@ -1,7 +1,6 @@
 .place__website {
   max-width: 46.34%;
   min-height: 46px;
-  align-self: self-start;
   margin-left: 40px;
   align-self: flex-end;
 }
