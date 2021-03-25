@@ -8,7 +8,6 @@
   max-width: 15.71%;
   min-height: 16px;
   margin: 0;
-
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
@@ -20,5 +19,13 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .footer__copyright {
     max-width: 25.83%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .footer__copyright {
+    max-width: 100%;
+    width: 100%;
+    margin: 48px 0 0 16px;
   }
 }

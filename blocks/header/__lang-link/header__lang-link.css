@@ -3,7 +3,7 @@
   font-style:  normal;
   font-weight: 400;
   font-size: 24px;
-  line-height: 1.167;
+  line-height: 1.11;
   margin-right: 18px;
   color: #fff;
   text-decoration: none;
@@ -19,3 +19,10 @@
   opacity: .8;
   transition: opacity .3s linear;
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .header__lang-link {
+    font-size: 18px;
+  }
+}
+/* проверить fon-size */
