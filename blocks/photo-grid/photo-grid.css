@@ -1,6 +1,5 @@
 .photo-grid {
   width: 92.5%;
-  min-height: 671px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -22,7 +21,6 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
     width: 93.75%;
-    gap: 16px;
   }
 }
 

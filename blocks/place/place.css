@@ -1,6 +1,5 @@
 .place {
   width: 100%;
-  min-height: 584px;
   display: flex;
   flex-wrap: wrap;
   margin: 80px auto 0;
@@ -8,18 +7,10 @@
 
 .place:first-of-type {
   margin-top: 0;
-  /* min-height: 564px; */
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .place {
-    min-height: 564px;
-  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .place {
-    min-height: 484px;
     margin-top: 73px;
   }
 }

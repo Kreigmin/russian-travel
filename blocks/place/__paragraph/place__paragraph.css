@@ -11,7 +11,7 @@
   color: #fff;
 }
 
-.place__paragraph:nth-of-type(2n){
+.place__paragraph:not(:first-child) {
   margin-top: 26px;
 }
 
